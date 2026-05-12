@@ -1,0 +1,43 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reports and test artifacts
+reports/
+allure-results/
+allure-report/
+test-results/
+playwright-report/
+screenshots/
+videos/
+traces/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
