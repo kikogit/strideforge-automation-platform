@@ -1,0 +1,28 @@
+environment: local
+
+ui:
+  base_url: "https://example.com"
+  browser: "chromium"
+  headless: true
+  default_timeout: 30000
+
+api:
+  base_url: "https://jsonplaceholder.typicode.com"
+  timeout: 30
+  retry_count: 1
+
+mobile:
+  platform: "android"
+  device_name: "local-emulator"
+  app_path: ""
+  timeout: 30
+
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_file_path: "logs/automation.log"
+
+reporting:
+  screenshots_on_failure: true
+  video_on_failure: false
+  allure_results_dir: "allure-results"

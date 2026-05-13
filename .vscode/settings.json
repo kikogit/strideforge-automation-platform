@@ -5,6 +5,12 @@
   "python.testing.pytestArgs": [
     "test-projects"
   ],
+  "python.analysis.extraPaths": [
+    "./common-utilities-framework",
+    "./ui-core-framework",
+    "./api-core-framework",
+    "./mobile-core-framework"
+  ],
   "editor.formatOnSave": true,
   "python.analysis.typeCheckingMode": "basic",
   "files.exclude": {

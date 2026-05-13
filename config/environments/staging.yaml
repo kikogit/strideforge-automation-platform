@@ -1,0 +1,28 @@
+environment: staging
+
+ui:
+  base_url: "https://staging.example.com"
+  browser: "chromium"
+  headless: true
+  default_timeout: 30000
+
+api:
+  base_url: "https://staging-api.example.com"
+  timeout: 30
+  retry_count: 2
+
+mobile:
+  platform: "android"
+  device_name: "staging-emulator"
+  app_path: ""
+  timeout: 30
+
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_file_path: "logs/automation.log"
+
+reporting:
+  screenshots_on_failure: true
+  video_on_failure: false
+  allure_results_dir: "allure-results"
