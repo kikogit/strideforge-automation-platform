@@ -30,3 +30,4 @@ class ValidationError(FrameworkError):
 
 class RetryError(FrameworkError):
     """Raised when a retry operation fails after all retry attempts."""
+
