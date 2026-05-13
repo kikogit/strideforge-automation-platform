@@ -1,0 +1,14 @@
+{
+    "valid_user": {
+        "username": "test.user@example.com",
+        "first_name": "Test",
+        "last_name": "User",
+        "role": "standard_user"
+    },
+    "admin_user": {
+        "username": "admin.user@example.com",
+        "first_name": "Admin",
+        "last_name": "User",
+        "role": "admin_user"
+    }
+}

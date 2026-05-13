@@ -1,0 +1,10 @@
+{
+    "missing_title": {
+        "body": "missing required title",
+        "userId": 1
+    },
+    "missing_body": {
+        "title": "missing body",
+        "userId": 1
+    }
+}

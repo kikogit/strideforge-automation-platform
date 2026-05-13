@@ -1,0 +1,9 @@
+valid_login:
+  username: "test.user@example.com"
+  password: "fakePassword123"
+  expected_role: "standard_user"
+
+admin_login:
+  username: "admin.user@example.com"
+  password: "FakeAdminPassword123"
+  expected_role: "admin"
