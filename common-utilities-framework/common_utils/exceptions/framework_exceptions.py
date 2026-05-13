@@ -1,7 +1,6 @@
 class FrameworkError(Exception):
     """Base exception for all framework-level errors."""
 
-
 class ConfigurationError(FrameworkError):
     """Raised when configuration is missing, invalid, or cannot be loaded."""
 
